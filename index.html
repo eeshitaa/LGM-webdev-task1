@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Single Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <section id="front">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">ZIPPY</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+              <li class="nav-item"><a class="nav-link" href="#projects">PROJECTS</a></li>
+              <li class="nav-item"><a class="nav-link" href="#pricing">PRICING</a></li>
+              <li class="nav-item"><a class="nav-link" href="#team">TEAM</a></li>
+              <li class="nav-item"><a class="nav-link" href="#blog">BLOG</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+      </nav>
+
+      <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/pexels-maxime-francis-2246476.jpg" alt="bg1" class="d-block w-100">
+            <div class="carousel-caption">
+              <h1>One page promising to fill all your needs.</h1>
+              <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+              <button type="button" name="button" class="btn btn-warning">LEARN MORE</button>
+              <button type="button" name="button" class="btn btn-primary">LEARN MORE</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/pexels-carlos-oliva-3586966.jpg" alt="bg2" class="d-block w-100">
+            <div class="carousel-caption">
+              <h1>One page promising to fill all your needs.</h1>
+              <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+              <button type="button" name="button" class="btn btn-warning">LEARN MORE</button>
+              <button type="button" name="button" class="btn btn-primary">LEARN MORE</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/pexels-aleksandar-pasaric-325185.jpg" alt="bg3" class="d-block w-100">
+            <div class="carousel-caption">
+              <h1>One page promising to fill all your needs.</h1>
+              <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+              <button type="button" name="button" class="btn btn-warning">LEARN MORE</button>
+              <button type="button" name="button" class="btn btn-primary">LEARN MORE</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/pexels-sanaan-mazhar-3075993.jpg" alt="bg4" class="d-block w-100">
+            <div class="carousel-caption">
+              <h1>One page promising to fill all your needs.</h1>
+              <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.</p>
+              <button type="button" name="button" class="btn btn-warning">LEARN MORE</button>
+              <button type="button" name="button" class="btn btn-primary">LEARN MORE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="home" class="content-padding">
+      <h1 class="center heading-txt">Welcome to Zippy</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <p class="space welcome-txt">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollictudin, lorem quis bibendum auctor.</p>
+          </div>
+          <div class="col-4">
+            <i class="fas fa-umbrella"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <i class="fas fa-bell welcome-card-icon"></i>
+            <h4 class="center space">LOREM IPSUM</h4>
+            <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <button type="button" name="button" class="btn btn-primary center">LEARN MORE</button>
+          </div>
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <i class="fas fa-envelope welcome-card-icon"></i>
+            <h4 class="center space">DOLOR SIT</h4>
+            <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <button type="button" name="button" class="btn btn-warning">LEARN MORE</button>
+          </div>
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <i class="fas fa-archive welcome-card-icon"></i>
+            <h4 class="center space">CONSECTETURE</h4>
+            <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <button type="button" name="button" class="btn btn-primary center">LEARN MORE</button>
+          </div>
+        </div>
+      </div>
+      <hr>
+    </section>
+
+    <section id="projects">
+      <h1 class="center heading-txt">Projects</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 odd-project">
+            <img src="project-images/pexels-anete-lusina-5239790.jpg" class="project-img">
+            <h4>PROJECT NAME</h4>
+            <p>Lorem ipsum dolor sit amez, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button type="button" name="button" class="btn btn-light">LAUNCH CASE STUDY</button>
+          </div>
+          <div class="col-lg-3 col-md-6 even-project">
+            <img src="project-images/pexels-anete-lusina-4792282.jpg" class="project-img">
+            <h4>PROJECT NAME</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button type="button" name="button" class="btn btn-light">LAUNCH CASE STUDY</button>
+          </div>
+          <div class="col-lg-3 col-md-6 odd-project">
+            <img src="project-images/pexels-lisa-3197390.jpg" class="project-img">
+            <h4>PROJECT NAME</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button type="button" name="button" class="btn btn-light">LAUNCH CASE STUDY</button>
+          </div>
+          <div class="col-lg-3 col-md-6 even-project">
+            <img src="project-images/pexels-liza-summer-6347728.jpg" class="project-img">
+            <h4>PROJECT NAME</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button type="button" name="button" class="btn btn-light">LAUNCH CASE STUDY</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="content-padding">
+      <h1 class="center heading-txt">Pricing</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sl-12 three-card text-center border-right">
+            <h4 class="center space heading4">STANDARD PLAN</h4>
+            <p class="subheading">FREE</p>
+            <div class="pricing-features">
+              <p>2 GB Available</p>
+              <p>15 max contacts</p>
+              <p>30 messages/month</p>
+              <p>Disgusting Ads</p>
+            </div>
+            <button type="button" name="button" class="btn btn-warning">BUY</button>
+          </div>
+          <div class="col-lg-4 col-sl-12 three-card text-center border-right">
+            <h4 class="center space heading4">BUSINESS PLAN</h4>
+            <p class="subheading">9$/MONTH</p>
+            <div class="pricing-features">
+              <p>10 GB Available</p>
+              <p>75 max contacts</p>
+              <p>120 messages/month</p>
+              <p>Ads Free</p>
+            </div>
+            <button type="button" name="button" class="btn btn-warning">BUY</button>
+          </div>
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <h4 class="center space heading4">PREMIUM PLAN</h4>
+            <p class="subheading">14$/MONTH</p>
+            <div class="pricing-features">
+              <p>100 GB Available</p>
+              <p>Unlimited Contacts</p>
+              <p>Unlimited messages/month</p>
+              <p>Ads Free</p>
+            </div>
+            <button type="button" name="button" class="btn btn-warning">BUY</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video">
+      <h1 class="center">Video Projects</h1>
+      <div class="owl-carousel owl-theme owl-video">
+        <div class="item-video">
+          <video width="430" height="240" controls>
+            <source src="videos/pexels-krypto-trekker-6696484.mp4" type="video/mp4">
+          </video>
+          <div class="d-flex justify-content-between">
+            <p>Video Title</p>
+            <p>$10</p>
+          </div>
+        </div>
+        <div class="item-video">
+          <video width="450" height="240" controls>
+            <source src="videos/pexels-mikhail-nilov-8301918.mp4" type="video/mp4">
+          </video>
+          <div class="d-flex justify-content-between">
+            <p>Video Title</p>
+            <p>$10</p>
+          </div>
+        </div>
+        <div class="item-video">
+          <video width="430" height="240" controls>
+            <source src="videos/pexels-mikhail-nilov-8301958.mp4" type="video/mp4">
+          </video>
+          <div class="d-flex justify-content-between">
+            <p>Video Title</p>
+            <p>$10</p>
+          </div>
+        </div>
+        <div class="item-video">
+          <video width="430" height="240" controls>
+            <source src="videos/production ID_4460336.mp4" type="video/mp4">
+          </video>
+          <div class="d-flex justify-content-between">
+            <p>Video Title</p>
+            <p>$10</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="content-padding">
+      <h1 class="center">Zippy Team</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <img src="images/avatar.png" alt="avatar">
+            <div class="socials">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+            <h4 class="center space heading4">FULL NAME</h4>
+            <p class="subheading">Employee</p>
+          </div>
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <img src="images/avatar.png" alt="avatar">
+            <div class="socials">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+            <h4 class="center space heading4">FULL NAME</h4>
+            <p class="subheading">Employee</p>
+          </div>
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <img src="images/avatar.png" alt="avatar">
+            <div class="socials">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+            <h4 class="center space heading4">FULL NAME</h4>
+            <p class="subheading">Employee</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <img src="images/avatar.png" alt="avatar">
+            <div class="socials">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+            <h4 class="center space heading4">FULL NAME</h4>
+            <p class="subheading">Employee</p>
+          </div>
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <img src="images/avatar.png" alt="avatar">
+            <div class="socials">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+            <h4 class="center space heading4">FULL NAME</h4>
+            <p class="subheading">Employee</p>
+          </div>
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <img src="images/avatar.png" alt="avatar">
+            <div class="socials">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+            </div>
+            <h4 class="center space heading4">FULL NAME</h4>
+            <p class="subheading">Employee</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="life" class="content-padding">
+      <h1 class="center">Life at Zippy</h1>
+      <div class="center">
+        <img src="life-images/life1.jpg" id="main-life-img">
+      </div>
+      <div class="owl-carousel owl-theme owl-basic">
+        <div class="item" data-merge="1"> <img src="life-images/life1.jpg" alt="" onclick="changePic('life-images/life1.jpg')"> </div>
+        <div class="item" data-merge="1"> <img src="life-images/life2.jpg" alt="" onclick="changePic('life-images/life2.jpg')"> </div>
+        <div class="item" data-merge="1"> <img src="life-images/life3.jpg" alt="" onclick="changePic('life-images/life3.jpg')"> </div>
+        <div class="item" data-merge="1"> <img src="life-images/life4.jpg" alt="" onclick="changePic('life-images/life4.jpg')"> </div>
+        <div class="item" data-merge="1"> <img src="life-images/life5.jpg" alt="" onclick="changePic('life-images/life5.jpg')"> </div>
+        <div class="item" data-merge="1"> <img src="life-images/life6.jpg" alt="" onclick="changePic('life-images/life6.jpg')"> </div>
+      </div>
+    </section>
+
+    <section id="newsletter" class="content-padding">
+      <h1 class="center">Newsletter Signup</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-9" style="padding-right: 0;">
+            <input type="text" name="" placeholder="abc@example.com">
+          </div>
+          <div class="col-3" style="padding-left: 0;">
+            <button type="button" name="button" class="btn btn-warning">SIGN UP</button>
+            <button type="button" name="button" class="btn btn-primary">SIGN UP</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="content-padding">
+      <h1 class="center">BLOG</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <img src="life-images/life4.jpg" alt="">
+            <h4 class="center space">LOREM IPSUM</h4>
+            <h5 class="center space">15 Jan, 2015</h5>
+            <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <button type="button" name="button" class="btn btn-light center">READ MORE</button>
+          </div>
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <img src="life-images/life6.jpg" alt="">
+            <h4 class="center space">LOREM IPSUM</h4>
+            <h5 class="center space">15 Jan, 2015</h5>
+            <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <button type="button" name="button" class="btn btn-light center">READ MORE</button>
+          </div>
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <img src="life-images/life3.jpg" alt="">
+            <h4 class="center space">LOREM IPSUM</h4>
+            <h5 class="center space">15 Jan, 2015</h5>
+            <p class="center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <button type="button" name="button" class="btn btn-light center">READ MORE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container-fluid px-0">
+        <div class="row">
+          <div class="col">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe width="650" height="550" id="gmap_canvas"
+                src="https://maps.google.com/maps?q=New%20Delhi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"></a><br>
+                <style>.mapouter{position:relative;text-align:right;height:550px;width:650px;}</style>
+                <a href="https://www.embedgooglemap.net">embedding google map</a>
+                <style>.gmap_canvas {overflow:hidden;background:none!important;height:550px;width:650px;}</style>
+              </div>
+            </div>
+          </div>
+          <div class="col contact-form">
+            <h1>Contact</h1>
+            <form class="contact-me" action="index.html" method="post">
+              <label for="">NAME:</label> <br>
+              <input type="text" name="" value=""> <br>
+              <label for="">EMAIL ADDRESS:</label> <br>
+              <input type="text" name="" value=""> <br>
+              <label for="">SUBJECT:</label> <br>
+              <input type="text" name="" value=""> <br>
+              <label for="">MESSAGE:</label> <br>
+              <input type="text" name="" value="" id="input-message"> <br>
+              <button type="button" name="button" class="btn btn-primary">SEND</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="foot" class="content-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <h4 class="center space">OFFICE ADDRESS</h4>
+            <p class="center p-foot">Lorem ipsum dolor, 234 <br> 1200 Consecture <br> Adipsching </p>
+          </div>
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <h4 class="center space">FOLLOW US</h4>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+            <br>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-google-plus-g"></i>
+            <i class="fab fa-tumblr"></i>
+          </div>
+          <div class="col-lg-4 col-sl-12 three-card text-center">
+            <h4 class="center space">CONTACT US</h4>
+            <p class="center p-foot"> +123 456 789 <br> zippy@akype <br> enquiry@zippy.com </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

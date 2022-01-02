@@ -1,0 +1,443 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body{
+  min-height:100%;
+  height:auto;
+  margin:0;
+  padding:0;
+}
+
+.content-padding {
+  padding-left: 15%;
+  padding-right: 15%;
+  align-content:  center;
+}
+
+.center {
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.space {
+  padding: 5px 5px;
+}
+
+hr {
+  color: grey;
+  border-top: 3px solid grey;
+}
+
+.heading-txt {
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 5%;
+}
+
+.container {
+  margin: 0 auto 0 auto;
+}
+
+/* NAVBAR */
+.navbar {
+  position: absolute;
+  background: transparent;
+  z-index: 2;
+  margin: 0 auto 0 auto;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.navbar-collapse {
+  margin-left: 73%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-weight: bolder;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: gold;
+}
+
+/* FRONT PAGE */
+.w-100{
+  height: 100vh;
+}
+
+.carousel-caption {
+  color: white;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: 12.5%;
+  margin-right: 30%;
+}
+
+.carousel-caption p{
+  font-size: 1.2rem;
+}
+
+.btn-warning{
+  background-color: gold;
+  border-color: gold;
+}
+.btn-warning:hover{
+  background-color: purple;
+  color: white;
+  border: 0;
+}
+
+.btn-primary {
+  background-color: purple;
+  color: white;
+  border-color: purple;
+}
+.btn-primary:hover{
+  background-color: gold;
+  color:black;
+  border: 0;
+}
+
+/* WELCOME  */
+.container .row{
+  margin-top: 5%;
+}
+
+.welcome-txt {
+  color: grey;
+  font-size: 1.7rem;
+}
+
+.fa-umbrella {
+  font-size: 10rem;
+  color: grey;
+  margin-left: 15px;
+}
+
+.three-card {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.three-card button{
+  margin: 30px;
+}
+
+.welcome-card-icon {
+  font-size: 3rem;
+  padding: 10%;
+  background-color: purple;
+  color: white;
+  border-radius: 100%;
+  margin-bottom: 8%;
+}
+
+#home h4{
+  color: purple;
+  font-size: 1rem;
+}
+
+/* PROJECTS */
+.project-img{
+  height: 400px;
+  width: 100%;
+}
+
+#projects h4{
+  font-size: 1rem;
+  font-weight: bolder;
+  margin: 7%;
+}
+
+#projects p{
+  margin: 0 7% 7% 7%;
+}
+
+#projects button{
+  margin: 7%;
+}
+
+.button-on-hover {
+  background-color: purple;
+}
+
+#projects .container{
+  margin: 0;
+}
+
+#projects .row{
+  width: 113.5%;
+}
+
+.odd-project {
+  background-color: darkgrey;
+  padding: 0;
+}
+
+.odd-project:hover{
+  background-color: gold;
+}
+
+.even-project{
+  background-color: lightgrey;
+  padding: 0;
+}
+
+.even-project:hover{
+  background-color: gold;
+}
+
+.even-project:hover .btn-light{
+  background-color: purple;
+  color: white;
+  border: 0;
+}
+
+.odd-project:hover .btn-light{
+  background-color: purple;
+  color: white;
+  border: 0;
+}
+
+/* PRICING */
+
+#pricing{
+  margin-bottom: 5%;
+}
+
+#pricing h4 {
+  margin-bottom: 5%;
+}
+.heading4{
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.subheading {
+  color: darkgrey;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+.pricing-features p{
+  font-size: 0.8rem;
+  margin-bottom: 0.4rem;
+  font-weight: bolder;
+}
+
+.border-right {
+  border-right: solid lightgrey 2px!important;
+}
+
+/* VIDEO */
+#video {
+  background: purple;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 5%;
+}
+
+#video h1{
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#video p{
+  color: white;
+}
+
+.item-video {
+  margin: 0.5rem;
+}
+
+/* TEAMS */
+#team {
+  margin-top: 5%;
+}
+
+#team h1{
+  margin-bottom: 7%;
+  font-weight: bolder;
+}
+
+#team img{
+  height: 105px;
+  width: 105px;
+  border-radius: 90%;
+}
+
+#team img:hover{
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.socials {
+  position: absolute;
+  height: 103px;
+  width: 103px;
+  left: 95px;
+  bottom: 75px;
+  z-index: -1;
+  border-radius: 90%;
+  background: purple;
+  opacity: 80%;
+  color: white;
+}
+
+.socials .fab{
+  margin-top: 45px;
+  padding-right: 5px;
+}
+
+/* LIFE  */
+
+#life {
+  margin-top: 2.5%;
+  background-color: lightgrey;
+  padding-bottom: 5%;
+}
+
+#life h1{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#main-life-img{
+  height: 60vh;
+  width: auto;
+}
+
+.owl-basic .item{
+  margin: 3px;
+}
+.owl-basic .item img{
+  display: block;
+  width: auto;
+  height: 100px
+}
+
+/* NEWSLETTER */
+#newsletter {
+  background-image: url("images/newsletter-bg.jpg");
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#newsletter h1{
+  color: white;
+  font-weight: bolder;
+}
+
+#newsletter .container {
+  padding-left: 25%;
+  padding-right: 20%;
+}
+
+#newsletter input{
+  width: 100%;
+  border: 0;
+  height: 35px;
+  text-align: center;
+}
+
+/* BLOG */
+#blog img {
+  height: 100px;
+  width: 200px;
+}
+
+#blog h1{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#blog h4 {
+  font-size: 20px;
+  margin-top: 2.5%;
+}
+
+#blog h5{
+  font-size: 15px;
+  color: grey;
+}
+
+#blog .btn-light:hover{
+  background-color: gold;
+}
+
+/* CONTACT */
+#contact {
+  margin-top: 5%;
+}
+
+#contact .container-fluid {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: gold;
+}
+
+.container-fluid .row{
+  margin-right: 0;
+}
+
+.contact-form {
+  padding-left: 2.5%;
+}
+
+.contact-form h1{
+  margin-top: 7%;
+  margin-bottom: 4%;
+}
+
+.contact-form label {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.contact-form input{
+  border: 0;
+  margin-bottom: 2%;
+  height: 32px;
+  width: 250px;
+}
+
+#input-message {
+  height: 100px;
+}
+
+.contact-form button{
+  width: 250px;
+}
+
+.contact-form button:hover{
+  background-color: white;
+}
+
+/* FOOTER */
+#foot {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#foot h4{
+  font-size: 15px;
+}
+
+.p-foot {
+  font-size: 12px;
+}
+
+#foot i{
+  margin: 6px;
+}
